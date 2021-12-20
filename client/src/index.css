@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1.03em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 500;
+}
+@media only screen and (max-width: 768px) {
+  * {
+    font-size: 1rem;
+  }
+}
+a {
+  color: inherit;
+  font-style: none;
+  text-decoration: none;
+}
+body {
+  background: rgba(235, 235, 235, 0.8);
+}
